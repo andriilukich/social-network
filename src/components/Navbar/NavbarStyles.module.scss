@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  height: 100%;
+  padding-top: 30px;
+  background-color: lightgreen;
+
+  &__listItems {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__item {
+    padding: 5px 10px;
+
+    & a {
+      color: black;
+      text-decoration: none;
+
+      &:active {
+        color: white;
+      }
+    }
+
+    &_active {
+      color: #cacaca;
+    }
+  }
+}

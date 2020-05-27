@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 10px;
+  grid-area: header;
+  background-color: green;
+  padding-right: 30px;
+  
+  &__logo {
+    width: 40px;
+    height: auto;
+  }
+
+  &__login {
+    color: #fff;
+    text-decoration: none;
+
+    &__hover {
+      text-decoration: underline;
+    }
+  }
+}

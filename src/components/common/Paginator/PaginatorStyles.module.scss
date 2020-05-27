@@ -1,0 +1,23 @@
+.Paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+
+  &__ItemList {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+  }
+
+  &__Item {
+    padding: 2px 3px;
+    cursor: pointer;
+
+    &_active {
+      font-weight: 700;
+    }
+  }
+
+}

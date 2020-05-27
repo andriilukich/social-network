@@ -1,0 +1,29 @@
+.posts {
+  margin-top: 1rem;
+
+  &__postForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  &__textArea {
+    width: 100%;
+    margin-top: 1rem;
+
+    resize: none;
+    outline: none;
+    overflow: auto;
+  }
+
+  &__btn {
+    padding: 0.3rem 2em;
+    margin-top: 1rem;
+
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: green;
+  }
+}

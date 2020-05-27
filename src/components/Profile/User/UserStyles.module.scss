@@ -1,0 +1,35 @@
+.userI {
+  display: flex;
+  margin-top: 15px;
+
+  &__avatar {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  &__data {
+    margin-left: 1rem;
+  }
+
+  &__name {
+    font-size: 2rem;
+  }
+
+  &__contacts {
+    margin-top: 1rem;
+  }
+
+  &__contact {
+    color: green;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__info {
+    padding: 3px 0;
+  }
+}

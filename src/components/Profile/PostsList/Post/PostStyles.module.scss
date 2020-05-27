@@ -1,0 +1,19 @@
+.post {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  &__text {
+    margin-left: 1rem;
+  }
+}
